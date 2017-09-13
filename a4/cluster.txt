@@ -1,0 +1,3 @@
+No of communities discovered 6
+No of users in the network 173
+Average number  of users per communnity 28.833333

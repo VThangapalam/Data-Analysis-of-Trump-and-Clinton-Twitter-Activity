@@ -1,0 +1,10 @@
+Number of new tweets collected for test 100
+Number of followers of Trump collected 10
+Number of friends of Trump's followers collected 206
+Total number of users collected 216
+Top five common friends of Trump's followers
+AmitShahBillGatesjustinbieberTheDailyShowmrsbrookeevans
+Number of new tweets collected for test 100
+
+Number of followers of Trump collected 10
+

@@ -1,0 +1,76 @@
+Goal :
+Sentiment analysis of a tweet , labelling each tweet either as positive, negative or neutral. For the analysis and training of the classifier I have collected about 500 recent tweets of Donald Trump labelled them manually and used the sklearn logistic regression model 
+classifier.Retweets were not considered as part of training data so as to keep Trump’s tweets as the main features of the model. 
+
+
+Another important analysis done is trying to find how much of overlap of friends of Trump’s followers (i.e which other people do Trump’s followers follow apart from him)
+For the purpose of this experiment I have collected 100 followers of Trump and  100 friends of each of these followers.
+This aim of this was to find how alike are Trump followers , trying to infer that the more common friends the followers have the more strongly correlated they are
+
+
+
+
+Conclusions :
+
+
+Sentiment Analysis
+From the analysis of Trump’s tweets , it is seen that there is a mix of positive , negative and neutral tweets ,  with number of negative tweets slightly higher than the other two classes. The tweets are mostly from post election period. The main topics that Trump tweeted in each class can be summarised as follows:
+Positive: New government plans, Thanking  his supporters, Making promises of good times ahead.
+Negative: Accusations about opponents , in particular Hillary Clinton;Failures in Obama’s administrative policies eg ObamaCare, 
+Neutral: about Campaign schedules, interview schedules
+
+
+Community Detection:
+
+There are some popular personalities that Trump’s followers follow . Eg :Barack Obama,Bernie Sanders. 
+
+
+
+
+Challenges:
+Rate limit of the the twitter API makes the process of collecting large datasets time consuming.
+Due to limitation of time only 100 followers and 100 of their friends are considered . Hence the communities formed are not accurate, although it does provide an idea about the common friends of Trump’s followers.
+The classifier for sentiment analysis was built based on Trump’s tweets and hence not generic for any tweet.Also the training data would need to be updated from time to time taking into consideration , the pattern of tweets once Trump has started his term
+
+
+Future scope:
+Collect more tweets  train the classifier , to increase it’s accuracy on new tweets.
+Increase data collection for the community detection and detect personalities who are followed by most Trump followers .
+A comparison of tweets of Trump and his opponents.
+A analysis on Trump’s performance can be performed  after a certain period to 
+
+
+How to run :
+All configuration settings in conf.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

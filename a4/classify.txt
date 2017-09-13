@@ -1,0 +1,55 @@
+
+Total Number of tweets used for training : 540
+Number of Positive tweets used for training : 149
+Number of Negative tweets used for training : 243
+Number of Neutral tweets used for training : 146
+
+Sample of a test tweet predicted as negative:
+The Theater must always be a safe and special place.The cast of Hamilton was very rude last night to a very good man, Mike Pence. Apologize!
+Actual label : negative
+
+Sample of a test tweet predicted as positive
+I am working hard, even on Thanksgiving, trying to get Carrier A.C. Company to stay in the U.S. (Indiana). MAKING PROGRESS - Will know soon!
+Actual label : positive
+
+
+Sample of a test tweet predicted as neutral
+Departing Golden, CO. for Arizona now - after an unbelievable rally. Watch here: https://t.co/zNzmWuZPiV
+Overflow: https://t.co/93L7JfdmXJ
+Actual label : positive
+
+accuracy on test data=0.741
+
+Mean accuracy for 5 fold cross validation is : 0.696296 
+
+
+TOP COEFFICIENTS PER CLASS:
+negative words:
+clinton: 1.63673
+hillary: 1.54735
+obamacarefail: 1.49124
+hillaryclinton: 1.30600
+crookedhillary: 1.19181
+
+positive words:
+join: 1.00829
+thank: 0.77273
+great: 0.77031
+get: 0.74868
+washington: 0.70355
+
+Testing on new data collected
+
+Sample of a newly collected tweet predicted as negative:
+My thoughts and prayers are with those affected by the tragic storms and tornadoes in the Southeastern United States. Stay safe!
+
+Sample of a newly collected tweet predicted as positive
+Thank you Ohio! Together, we made history – and now, the real work begins. America will start winning again!… https://t.co/sVNSNJE7Uf
+
+Sample of newly collected tweet predicted as neutral
+'President-Elect Donald J. Trump Nominates Elaine Chao as Secretary of the Department of Transportation'
+https://t.co/5FMGdhAZxB
+
+Number of new tweets classified as negative 18 
+Number of new tweets classified as positive 20 
+Number of new tweets classified as neutral 6 
